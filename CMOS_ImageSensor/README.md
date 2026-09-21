@@ -73,25 +73,24 @@ Ansys Lumerical FDTD, FSI(Front-Side Illumination) CMOS Image Sensor, BSI(Back-S
 ---
 
 ### DTI 소재별 Crosstalk 억제 효과 비교 (HfO₂, BlackDiamond, W)
+
 <img width="1339" height="746" alt="image" src="https://github.com/user-attachments/assets/124b314a-e52c-4175-bcaf-fa7605d19960" />
 <img width="1344" height="709" alt="image" src="https://github.com/user-attachments/assets/fe0620c6-28ec-405c-bb06-ed20a8390ce2" />
 <img width="1339" height="701" alt="image" src="https://github.com/user-attachments/assets/506642d1-7aa9-4316-8339-ba2b8db18185" />
 <img width="1340" height="714" alt="image" src="https://github.com/user-attachments/assets/10011b57-3a2d-4d81-8ce0-4435c3b161e5" />
 <img width="1342" height="691" alt="image" src="https://github.com/user-attachments/assets/18111387-8628-4505-b555-2265769d7dfc" />
+<img width="1381" height="712" alt="image" src="https://github.com/user-attachments/assets/a9c1ee54-0602-4dcb-8706-429f8b97ea2e" />
 
 ---
 
 ### DTI 격벽 소재 및 두께 최적화
 
 Crosstalk을 억제하기 위해 격벽의 두께 변수를 조정하며 시뮬레이션을 진행했습니다. 기존 SiO₂ 격벽의 광 흡수율 한계를 파악하고, 박막 물성 데이터를 기반으로 High-k 물질인 TiO₂로 소재를 변경해 포토다이오드 도달 광량을 확보했습니다.
+격벽 두께를 2nm에서 600nm까지 50nm 단위로 분할하고, 물질별(SiO₂, TiO₂, HfO₂, W, BlackDiamond, CNT)로 각 30회씩 시뮬레이션을 수행했습니다. 그래프는 최종 결정된 물질(TiO₂, HfO₂, BlackDiamond)들로 구성된 자료입니다.
 
-격벽 두께를 2nm에서 600nm까지 50nm 단위로 분할하고, 물질별(SiO₂, TiO₂, HfO₂, W, BlackDiamond)로 각 30회씩 시뮬레이션을 수행했습니다.
+<img width="1567" height="633" alt="image" src="https://github.com/user-attachments/assets/dfd5dfea-0126-46fc-b703-19e087994844" />
 
-
-
----
-
-
+<img width="1610" height="911" alt="image" src="https://github.com/user-attachments/assets/df021a73-d63d-4e78-a1b0-e1dd129213e8" />
 
 ---
 
@@ -100,6 +99,17 @@ Crosstalk을 억제하기 위해 격벽의 두께 변수를 조정하며 시뮬�
 팀원들은 기존 Low-k 소재를 유지하자고 주장했습니다. 데이터 없이 논쟁하는 것은 비효율적이라고 판단하여, "물성 데이터를 확보하면 신소재로, 못 하면 기존안을 따르자"는 조건을 제안했습니다.
 
 부산에서 서울 SEMICON Korea까지 직접 방문하여 소재 기업 부스 엔지니어로부터 TiO₂의 최신 박막 물성 데이터(실측 굴절률)를 수집했습니다. 이 데이터를 시뮬레이션에 반영하여 팀원들을 설득했습니다.
+
+
+### 배경 및 문제 제기
+
+컬러필터 격벽은 굴절률이 낮은 Low-k 물질을 적용해야 빛을 내부로 전반사시켜 누설전류를 차단할 수 있었습니다. 반면 실리콘 기판 격벽은 High-k 물질의 음전하 특성을 활용해야 홀 축적층이 형성되어, 식각 결함으로 인한 암전류 누설을 물리적으로 방지할 수 있었습니다. 이러한 물리적 메커니즘의 차이 속에서, 기존의 Low-k 소재 유지를 주장하는 팀원들과 의견 대립이 발생했습니다.
+
+이에 소모적인 논쟁을 지양하고 의사결정의 효율성을 높이기 위해, '신소재의 실측 물성 데이터 확보 여부'를 기준으로 삼는 조건부 합의를 제안했습니다. 신뢰성 있는 raw 데이터를 확보하고자 부산에서 서울 SEMICON Korea 전시회에 직접 방문했습니다. 글로벌 소재 기업의 부스를 돌며 신소재 후보군인 TiO₂ 박막의 최신 물성 데이터를 수집했습니다.
+
+### 성과 및 결과
+
+확보한 물성 데이터를 FDTD 시뮬레이션 모델에 적용하여 신소재 격벽 구조가 광학적 전반사와 전기적 누설 차단 성능을 동시에 충족함을 정량적으로 증명했습니다.객관적인 데이터 기반의 시각 자료를 제시하여 팀원 전원의 합의를 도출했으며, 신소재 도입 타당성을 성공적으로 검증했습니다. 결과적으로 의견 조율에 소요되는 시간을 최소화하고 프로젝트의 전체 개발 일정을 단축하는 데 기여했습니다.
 
 ---
 
