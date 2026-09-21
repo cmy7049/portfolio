@@ -166,6 +166,8 @@ results = model.train(
 
 <img width="702" height="768" alt="image" src="https://github.com/user-attachments/assets/e4fe2d38-6815-4b7b-8d9c-d770203c4b15" />
 
+<img width="826" height="1168" alt="image" src="https://github.com/user-attachments/assets/bbe3d921-e18d-45be-9c6c-e15a939d1586" />
+
 
 전체 시스템 동작 구현까지 완성하여 장려상을 수상했습니다.
 
