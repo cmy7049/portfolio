@@ -49,6 +49,7 @@ YOLOv11, ONNX Runtime, Raspberry Pi 4, Arduino Uno, UART 시리얼 통신, MG996
 
 <img width="701" height="1043" alt="image" src="https://github.com/user-attachments/assets/f10e4ceb-7f85-4f47-83e3-95f9632a17be" />
 
+<img width="726" height="763" alt="image" src="https://github.com/user-attachments/assets/ce39f067-8691-43c3-86ad-90faf5367483" />
 
 ---
 
