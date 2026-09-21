@@ -45,7 +45,31 @@ Ansys Lumerical FDTD, FSI(Front-Side Illumination) CMOS Image Sensor, BSI(Back-S
 
 <img width="1351" height="654" alt="image" src="https://github.com/user-attachments/assets/354a0ed4-a67d-4948-9144-1aa3f1497fa2" />
 
+###  ARC Single/Double Layer 두께 최적화
+파장 550nm 조건에서 표면 반사 손실을 최소화하기 위해, 굴절률(n=2.435)을 참고하여 최적의 ARC(무반사 코팅) 두께(d=56.5nm)를 설계 및 적용했습니다.
+
+<img width="1157" height="568" alt="image" src="https://github.com/user-attachments/assets/8be13686-9576-45c6-8591-1f2f1f3dbe1e" />
+
+<img width="985" height="486" alt="image" src="https://github.com/user-attachments/assets/d724a6d3-de32-4b8e-886f-0d81509bd2a4" />
+
+<img width="986" height="686" alt="image" src="https://github.com/user-attachments/assets/5d040c38-c3b6-4e6a-ad98-8a54ab916b4f" />
+
+<img width="1127" height="563" alt="image" src="https://github.com/user-attachments/assets/aaf3ee3e-39c6-4645-9d5c-1151106bd0ba" />
+
+
+<img width="1059" height="619" alt="image" src="https://github.com/user-attachments/assets/401cc6a7-fc94-4040-a207-0b88cafb6c5e" />
+
+<img width="760" height="613" alt="image" src="https://github.com/user-attachments/assets/9a2fb423-ed3f-47e8-bf43-33cc32b4e3a4" />
+
+---
+
 ### DTI 소재별 Crosstalk 억제 효과 비교 (SiO₂, HfO₂, BlackDiamond)
+<img width="1339" height="746" alt="image" src="https://github.com/user-attachments/assets/124b314a-e52c-4175-bcaf-fa7605d19960" />
+<img width="1344" height="709" alt="image" src="https://github.com/user-attachments/assets/fe0620c6-28ec-405c-bb06-ed20a8390ce2" />
+<img width="1339" height="701" alt="image" src="https://github.com/user-attachments/assets/506642d1-7aa9-4316-8339-ba2b8db18185" />
+<img width="1340" height="714" alt="image" src="https://github.com/user-attachments/assets/10011b57-3a2d-4d81-8ce0-4435c3b161e5" />
+
+
 
 
 
@@ -59,9 +83,7 @@ Crosstalk을 억제하기 위해 격벽의 두께 변수를 조정하며 시뮬�
 
 ---
 
-### ARC 설계
 
-파장 550nm 조건에서 표면 반사 손실을 최소화하기 위해, 굴절률(n=2.435)을 참고하여 최적의 ARC(무반사 코팅) 두께(d=56.5nm)를 설계 및 적용했습니다.
 
 ---
 
