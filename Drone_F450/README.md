@@ -39,9 +39,7 @@ Arduino MCU를 활용한 다양한 미니 프로젝트(RC카, 미세먼지 센�
 <img width="1018" height="459" alt="image" src="https://github.com/user-attachments/assets/929cc071-09f5-4c68-8da8-0d770ff2f20d" />
 <img width="1163" height="567" alt="image" src="https://github.com/user-attachments/assets/70c7393e-6b36-4e96-b371-d7c91fe35b1f" />
 
-
-
-
+---
 <img width="1211" height="514" alt="image" src="https://github.com/user-attachments/assets/1cb8ef23-9dd4-4c62-ad46-98b1b262f834" />
 <img width="1180" height="553" alt="image" src="https://github.com/user-attachments/assets/f16a8afd-f856-4aea-919e-74ea8224f3f3" />
 <img width="1072" height="553" alt="image" src="https://github.com/user-attachments/assets/546418c7-cf07-40a5-966b-79a1c6e63f5f" />
