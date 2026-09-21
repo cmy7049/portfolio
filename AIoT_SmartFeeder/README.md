@@ -112,13 +112,60 @@ PIR 센서가 물체를 인식하면 아두이노는 명령에 따라 MG996R 서
 
 **UART 통신 전압 불일치**
 
-Raspberry Pi(3.3V)와 Arduino(5V) 간 UART 직렬 통신에서 전압 차이로 신호가 깨졌습니다. 10kΩ + 20kΩ 저항으로 전압 분배 회로를 구성하여 5V → 3.3V 레벨 시프팅을 구현했습니다.
+Raspberry Pi(3.3V)와 Arduino(5V) 간 UART 직렬 통신에서 전압 차이로 신호가 깨졌습니다. 10kΩ + 10kΩ 저항으로 전압 분배 회로를 구성하여 5V → 3.3V 레벨 시프팅을 구현했습니다.
+
+
+---
+
+### 핵심 코드
+
+#### Arduino - 서보모터 제어
+
+if (Serial.available() > 0) {
+  char cmd = Serial.read();
+  if (cmd == 'D' && !isServoMoving) {
+    Serial.println("Command: Dog -> 0°");
+    myServo.write(0);      // 강아지 사료 방향
+    servoStart = millis();
+    isServoMoving = true;
+  } else if (cmd == 'C' && !isServoMoving) {
+    Serial.println("Command: Cat -> 180°");
+    myServo.write(180);    // 고양이 사료 방향
+    servoStart = millis();
+    isServoMoving = true;
+  }
+}
+
+#### Python - YOLO 추론 → 아두이노 명령 전송
+
+onnx_outputs = session.run(output_names, {input_name: input_tensor})
+
+detections = postprocess_yolo_output(
+    onnx_outputs, 640, 640, CONF_THRESHOLD, NMS_THRESHOLD)
+
+for det in detections:
+    if det['class_id'] == DOG_CLASS_ID:
+        ser.write(b'D')  # 강아지 → 서보 0°
+    elif det['class_id'] == CAT_CLASS_ID:
+        ser.write(b'C')  # 고양이 → 서보 180°
+
+#### YOLO 학습 스크립트
+
+from ultralytics import YOLO
+
+model = YOLO('yolov11n.pt')
+results = model.train(
+    data='pet_dataset/dataset.yaml',
+    epochs=100, imgsz=640, batch=16,
+    name='custom_pet_yolov11'
+)
 
 ---
 
 ### 결과
 
-<img width="530" height="514" alt="image" src="https://github.com/user-attachments/assets/cdc3faed-22ec-49f0-b3d6-dc30a9148326" />
+<img width="702" height="768" alt="image" src="https://github.com/user-attachments/assets/e4fe2d38-6815-4b7b-8d9c-d770203c4b15" />
+
 
 전체 시스템 동작 구현까지 완성하여 장려상을 수상했습니다.
 
