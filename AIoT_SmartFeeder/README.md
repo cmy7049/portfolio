@@ -1,5 +1,4 @@
-
-![Uploading 20250723-공학교육혁신센터, ‘2025 사물인터넷 인벤톤 프로그램’ 성료.jpg…]()
+<img width="3907" height="2050" alt="20250723-공학교육혁신센터, ‘2025 사물인터넷 인벤톤 프로그램’ 성료" src="https://github.com/user-attachments/assets/c8337e01-8b2e-41cd-b6a1-4b79905d5072" />
 
 # AIoT 스마트 자동 급식기
 
