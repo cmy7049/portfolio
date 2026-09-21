@@ -43,15 +43,20 @@ Arduino MCU를 활용한 다양한 미니 프로젝트(RC카, 미세먼지 센�
 <img width="1211" height="514" alt="image" src="https://github.com/user-attachments/assets/1cb8ef23-9dd4-4c62-ad46-98b1b262f834" />
 <img width="1180" height="553" alt="image" src="https://github.com/user-attachments/assets/f16a8afd-f856-4aea-919e-74ea8224f3f3" />
 <img width="1072" height="553" alt="image" src="https://github.com/user-attachments/assets/546418c7-cf07-40a5-966b-79a1c6e63f5f" />
-<img width="589" height="514" alt="image" src="https://github.com/user-attachments/assets/1f7585d0-7d03-47b3-bb8a-9313dc97d43b" />
 
-<img width="747" height="538" alt="image" src="https://github.com/user-attachments/assets/f6a05b74-e4c5-491e-b1a4-a8c23ef9811d" />
-<img width="999" height="550" alt="image" src="https://github.com/user-attachments/assets/4108b339-7de4-4912-a1e4-af098dfc0388" />
-<img width="1087" height="545" alt="image" src="https://github.com/user-attachments/assets/ef055e16-8773-47d9-bb10-e6b9bbb404bc" />
 
 ### 회로결선
+
+<img width="747" height="538" alt="image" src="https://github.com/user-attachments/assets/f6a05b74-e4c5-491e-b1a4-a8c23ef9811d" />
+
+<img width="999" height="550" alt="image" src="https://github.com/user-attachments/assets/4108b339-7de4-4912-a1e4-af098dfc0388" />
+
+<img width="1087" height="545" alt="image" src="https://github.com/user-attachments/assets/ef055e16-8773-47d9-bb10-e6b9bbb404bc" />
+
 <img width="479" height="474" alt="image" src="https://github.com/user-attachments/assets/2affba07-24d6-40f7-ae88-a5b4a216b422" />
+
 <img width="889" height="551" alt="image" src="https://github.com/user-attachments/assets/ec0d0fbc-8321-44c9-b239-19431288731e" />
+
 <img width="868" height="560" alt="image" src="https://github.com/user-attachments/assets/4f260c70-9d48-4839-a841-03efcf29bdd7" />
 
 ---
