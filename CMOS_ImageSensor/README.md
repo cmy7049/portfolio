@@ -54,6 +54,9 @@ Ansys Lumerical FDTD, FSI(Front-Side Illumination) CMOS Image Sensor, BSI(Back-S
 
 <img width="1127" height="563" alt="image" src="https://github.com/user-attachments/assets/aaf3ee3e-39c6-4645-9d5c-1151106bd0ba" />
 
+<img width="1173" height="590" alt="image" src="https://github.com/user-attachments/assets/efd9f7e2-1f02-4d6d-ab16-103894e3f42f" />
+
+
 <img width="986" height="686" alt="image" src="https://github.com/user-attachments/assets/5d040c38-c3b6-4e6a-ad98-8a54ab916b4f" />
 
 <img width="1059" height="619" alt="image" src="https://github.com/user-attachments/assets/401cc6a7-fc94-4040-a207-0b88cafb6c5e" />
