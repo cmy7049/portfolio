@@ -72,15 +72,12 @@ Ansys Lumerical FDTD, FSI(Front-Side Illumination) CMOS Image Sensor, BSI(Back-S
 
 ---
 
-### DTI 소재별 Crosstalk 억제 효과 비교 (SiO₂, HfO₂, BlackDiamond)
+### DTI 소재별 Crosstalk 억제 효과 비교 (HfO₂, BlackDiamond, W)
 <img width="1339" height="746" alt="image" src="https://github.com/user-attachments/assets/124b314a-e52c-4175-bcaf-fa7605d19960" />
 <img width="1344" height="709" alt="image" src="https://github.com/user-attachments/assets/fe0620c6-28ec-405c-bb06-ed20a8390ce2" />
 <img width="1339" height="701" alt="image" src="https://github.com/user-attachments/assets/506642d1-7aa9-4316-8339-ba2b8db18185" />
 <img width="1340" height="714" alt="image" src="https://github.com/user-attachments/assets/10011b57-3a2d-4d81-8ce0-4435c3b161e5" />
-
-
-
-
+<img width="1342" height="691" alt="image" src="https://github.com/user-attachments/assets/18111387-8628-4505-b555-2265769d7dfc" />
 
 ---
 
@@ -89,6 +86,8 @@ Ansys Lumerical FDTD, FSI(Front-Side Illumination) CMOS Image Sensor, BSI(Back-S
 Crosstalk을 억제하기 위해 격벽의 두께 변수를 조정하며 시뮬레이션을 진행했습니다. 기존 SiO₂ 격벽의 광 흡수율 한계를 파악하고, 박막 물성 데이터를 기반으로 High-k 물질인 TiO₂로 소재를 변경해 포토다이오드 도달 광량을 확보했습니다.
 
 격벽 두께를 2nm에서 600nm까지 50nm 단위로 분할하고, 물질별(SiO₂, TiO₂, HfO₂, W, BlackDiamond)로 각 30회씩 시뮬레이션을 수행했습니다.
+
+
 
 ---
 
@@ -108,5 +107,8 @@ Crosstalk을 억제하기 위해 격벽의 두께 변수를 조정하며 시뮬�
 
 ARC 및 최적 DTI 조합을 적용해 수광 효율을 약 13.6%(0.374→0.425) 향상시켰으며, 파라미터 최적화 역량을 인정받아 캡스톤 경진대회 장려상을 수상했습니다.
 <img width="829" height="1156" alt="image" src="https://github.com/user-attachments/assets/5be16428-ca5c-4e92-8579-ac4c344dfa33" />
+
+
+<img width="1149" height="619" alt="image" src="https://github.com/user-attachments/assets/f04632cd-03a2-43ac-9c5b-c552bc8eb218" />
 
 [← 메인으로](../README.md)
