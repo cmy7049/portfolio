@@ -60,7 +60,7 @@ Ansys Lumerical FDTD로 DTI 격벽 소재를 SiO₂→TiO₂로 최적화하여 
 
 공정 시뮬레이션
 [TCAD 기반 CMOS Inverter 공정 설계](./TCAD_CMOS_Inverter/)
-Synopsys TCAD Sentaurus로 STI~금속 컨택 전 공정 레시피 코드 작성. 채널 길이 50nm~1μm 단채널 효과(SCE) 수치적 확인. CMOS Inverter VTC 스위칭 특성 검증.
+Synopsys TCAD Sentaurus로 STI~금속 컨택 전 공정 레시피 코드 작성. 채널 길이 50nm ~ 1μm 단채널 효과(SCE) 수치적 확인. CMOS Inverter VTC 스위칭 특성 검증.
 
 자율주행 · 센서
 [ROS2 및 LiDAR 기반 센서 매핑](./OceanPlan_ROS2/)
