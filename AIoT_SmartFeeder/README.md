@@ -51,6 +51,32 @@ YOLOv11, ONNX Runtime, Raspberry Pi 4, Arduino Uno, UART 시리얼 통신, MG996
 
 <img width="726" height="763" alt="image" src="https://github.com/user-attachments/assets/ce39f067-8691-43c3-86ad-90faf5367483" />
 
+<img width="714" height="940" alt="image" src="https://github.com/user-attachments/assets/24c5d110-f2f5-4bc1-8898-593038b48d9b" />
+
+
+#### 아두이노 설계도
+
+<img width="770" height="1034" alt="image" src="https://github.com/user-attachments/assets/8ab8f334-c247-46fd-aad4-356564a4f6a9" />
+
+
+#### 아두이노 코드(센서 연동)
+
+<img width="700" height="1001" alt="image" src="https://github.com/user-attachments/assets/4aec788a-238a-49bf-a48e-7f3dea7d1135" />
+<img width="708" height="1002" alt="image" src="https://github.com/user-attachments/assets/81d455db-da3a-4d6e-bfbb-8d505de02820" />
+
+
+#### 라즈베리파이 코드(카메라 인식)
+
+<img width="696" height="1071" alt="image" src="https://github.com/user-attachments/assets/ec57960d-0894-4c20-9ca1-2e3911cc8876" />
+
+<img width="736" height="1055" alt="image" src="https://github.com/user-attachments/assets/3c9cdbfd-89d4-4c5c-bbbc-eb71de7eb711" />
+
+
+#### 학습 결과 (Confusion Matrix, 100 epoch, 640x640, batch 16)
+
+<img width="704" height="1041" alt="image" src="https://github.com/user-attachments/assets/47908947-0cf6-460f-8fc2-ac6fe37a9f33" />
+
+
 ---
 
 ### 기구 설계 및 구동부 최적화
@@ -58,6 +84,11 @@ YOLOv11, ONNX Runtime, Raspberry Pi 4, Arduino Uno, UART 시리얼 통신, MG996
 Onshape로 사료통(상부 지름 115mm, 벽 두께 2.5mm, 하부 입구 84mm) 및 본체를 설계하고 3D 프린터로 제작했습니다.
 
 테스트 중 사료 하중으로 인한 서보모터(MG996R)의 토크 부족이 발생하여, 모터 구동 방식을 재모색하고 배출구의 3D 모델링 두께를 재설계했습니다. 외부 전원(12V, 1.5A)을 독립적으로 인가하여 안정적인 사료 배출(0°~180° 회전) 시스템을 완성했습니다.
+
+#### 초기 구상도
+<img width="714" height="911" alt="image" src="https://github.com/user-attachments/assets/b847cf96-a48d-42c7-a76d-75c99e76c168" />
+
+<img width="693" height="1037" alt="image" src="https://github.com/user-attachments/assets/b7e4c4fc-7737-4da2-8d87-fd80d635c311" />
 
 ---
 
@@ -86,6 +117,8 @@ Raspberry Pi(3.3V)와 Arduino(5V) 간 UART 직렬 통신에서 전압 차이로 
 ---
 
 ### 결과
+
+<img width="530" height="514" alt="image" src="https://github.com/user-attachments/assets/cdc3faed-22ec-49f0-b3d6-dc30a9148326" />
 
 전체 시스템 동작 구현까지 완성하여 장려상을 수상했습니다.
 
