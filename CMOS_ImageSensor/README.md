@@ -1,4 +1,7 @@
 # CMOS 이미지센서 DTI 구조 최적화 시뮬레이션
+<img width="776" height="1095" alt="image" src="https://github.com/user-attachments/assets/94008047-90f8-4a54-bd43-d5d51bb4cf08" />
+
+
 
 2024년 전자공학전공 캡스톤디자인 경진대회 프로젝트입니다.
 Ansys Lumerical FDTD를 활용하여 CMOS 이미지 센서의 수광율(QE)을 13.6% 최적화했습니다.
@@ -73,5 +76,6 @@ Crosstalk을 억제하기 위해 격벽의 두께 변수를 조정하며 시뮬�
 ### 결과
 
 ARC 및 최적 DTI 조합을 적용해 수광 효율을 약 13.6%(0.374→0.425) 향상시켰으며, 파라미터 최적화 역량을 인정받아 캡스톤 경진대회 장려상을 수상했습니다.
+<img width="829" height="1156" alt="image" src="https://github.com/user-attachments/assets/5be16428-ca5c-4e92-8579-ac4c344dfa33" />
 
 [← 메인으로](../README.md)
