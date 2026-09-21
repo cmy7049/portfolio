@@ -35,7 +35,7 @@ YOLOv11, ONNX Runtime, Raspberry Pi 4, Arduino Uno, UART 시리얼 통신, MG996
 
 ### 프로젝트 사진
 
-## 시스템 구성도
+#### 시스템 구성도
 
 <img width="709" height="985" alt="스크린샷 2026-09-21 110558" src="https://github.com/user-attachments/assets/fe586b95-e2af-4a38-997c-e4e9a70e0afe" />
 
