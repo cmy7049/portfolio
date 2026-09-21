@@ -1,7 +1,7 @@
 # CMOS 이미지센서 DTI 구조 최적화 시뮬레이션
 
 2024년 전자공학전공 캡스톤디자인 경진대회 프로젝트입니다.
-Ansys Lumerical FDTD를 활용하여 CMOS 이미지 센서의 수광율(QE)을 최적화했습니다.
+Ansys Lumerical FDTD를 활용하여 CMOS 이미지 센서의 수광율(QE)을 13.6% 최적화했습니다.
 
 **2024.07 캡스톤디자인 경진대회 장려상** (부경대학교 정보융합대학장)
 
@@ -9,17 +9,42 @@ Ansys Lumerical FDTD를 활용하여 CMOS 이미지 센서의 수광율(QE)을 �
 
 ### 역할
 
-FDTD 시뮬레이션 설계, DTI 구조 모델링, 데이터 수집/분석, Semicon Korea 참관하여 Low-k 물질 데이터 확보
+FDTD 시뮬레이션 설계 및 DTI 구조 모델링·최적화, SEMICON Korea 참관하여 High-k/Low-k 박막 물성 데이터 직접 확보했습니다.
 
 ### 사용 기술
 
-Ansys Lumerical FDTD, BSI(Back-Side Illumination) CMOS Image Sensor, DTI, ARC(Anti-Reflection Coating)
+Ansys Lumerical FDTD, FSI(Front-Side Illumination) CMOS Image Sensor, BSI(Back-Side Illumination) CMOS Image Sensor, DTI(Deep Trench Isolation), ARC(Anti-Reflection Coating)
 
 ---
 
 ### 연구 배경
 
 고해상도 카메라 수요 급증으로 픽셀이 미세화(0.8μm 이하)되면서, 인접 픽셀 간의 빛 누설(Crosstalk) 및 수광율 저하 문제가 발생했습니다. 이를 개선하기 위해 Ansys Lumerical FDTD를 활용하여 CMOS 이미지 센서 구조 최적화를 진행했습니다.
+<img width="409" height="377" alt="image" src="https://github.com/user-attachments/assets/018e4573-6bc9-4d7f-920f-0ba3e449f75a" />
+
+---
+
+## 프로젝트 사진
+
+### 시뮬레이션 Setup
+
+<img width="1360" height="775" alt="image" src="https://github.com/user-attachments/assets/65f49b06-f5ca-4cef-bafd-1b371542235a" />
+
+<img width="1381" height="763" alt="image" src="https://github.com/user-attachments/assets/fa93e4d3-ec23-4757-b365-bed932b45d43" />
+
+### 입사각(Sweep Angle)에 따른 화소별 투과 효율(QE) 계산
+
+<img width="867" height="526" alt="image" src="https://github.com/user-attachments/assets/e050469e-5e9b-4fde-bd3e-5a13ec60d439" />
+
+### DTI(왼쪽) 및 BSI(오른쪽) 구조 단면도 차이
+
+<img width="645" height="767" alt="image" src="https://github.com/user-attachments/assets/45b4d7e9-ceb9-4b50-b773-4ad1f816c062" />
+
+<img width="1351" height="654" alt="image" src="https://github.com/user-attachments/assets/354a0ed4-a67d-4948-9144-1aa3f1497fa2" />
+
+### DTI 소재별 Crosstalk 억제 효과 비교 (SiO₂, HfO₂, BlackDiamond)
+
+
 
 ---
 
