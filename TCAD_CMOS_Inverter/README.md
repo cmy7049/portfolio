@@ -131,9 +131,6 @@ STI(소자 격리), N-Well 형성, LDD, 소스/드레인 이온 주입부터 금
 ### 배운 점
 <img width="635" height="660" alt="image" src="https://github.com/user-attachments/assets/9f6d3c3b-5c18-4656-85a6-a0ca1558bb43" />
 
-- TCAD 시뮬레이션에서 파라미터 하나의 변화가 소자 특성에 미치는 영향을 정량적으로 확인
-- 팀원에게 답을 알려주는 대신 원리를 함께 공부하여, 이후 프로젝트 속도가 향상되고 발표를 성공적으로 완수
-
 <img width="640" height="266" alt="image" src="https://github.com/user-attachments/assets/5b07ee6c-d27d-4d18-9781-5aa52e777bf7" />
 
 
