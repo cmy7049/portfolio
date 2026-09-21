@@ -1,4 +1,4 @@
-<img width="942" height="465" alt="image" src="https://github.com/user-attachments/assets/3b3bae7b-1597-43f6-a531-7ae17bd53e1c" /># 부경대학교 학술동아리 (OSD) — F450 쿼드콥터 드론 제작
+# 부경대학교 학술동아리 (OSD) — F450 쿼드콥터 드론 제작
 
 ## 개요
 
