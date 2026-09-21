@@ -35,15 +35,17 @@ Ansys Lumerical FDTD, FSI(Front-Side Illumination) CMOS Image Sensor, BSI(Back-S
 
 <img width="1381" height="763" alt="image" src="https://github.com/user-attachments/assets/fa93e4d3-ec23-4757-b365-bed932b45d43" />
 
-### 입사각(Sweep Angle)에 따른 화소별 투과 효율(QE) 계산
-
-<img width="867" height="526" alt="image" src="https://github.com/user-attachments/assets/e050469e-5e9b-4fde-bd3e-5a13ec60d439" />
-
 ### DTI(왼쪽) 및 BSI(오른쪽) 구조 단면도 차이
 
 <img width="645" height="767" alt="image" src="https://github.com/user-attachments/assets/45b4d7e9-ceb9-4b50-b773-4ad1f816c062" />
 
 <img width="1351" height="654" alt="image" src="https://github.com/user-attachments/assets/354a0ed4-a67d-4948-9144-1aa3f1497fa2" />
+
+<img width="1142" height="830" alt="image" src="https://github.com/user-attachments/assets/2c2032d7-3171-4e7e-bf90-0a421dc4d105" />
+
+### 입사각(Sweep Angle)에 따른 화소별 투과 효율(QE) 계산
+
+<img width="867" height="526" alt="image" src="https://github.com/user-attachments/assets/e050469e-5e9b-4fde-bd3e-5a13ec60d439" />
 
 ###  ARC Single/Double Layer 두께 최적화
 파장 550nm 조건에서 표면 반사 손실을 최소화하기 위해, 굴절률(n=2.435)을 참고하여 최적의 ARC(무반사 코팅) 두께(d=56.5nm)를 설계 및 적용했습니다.
@@ -57,6 +59,13 @@ Ansys Lumerical FDTD, FSI(Front-Side Illumination) CMOS Image Sensor, BSI(Back-S
 <img width="1059" height="619" alt="image" src="https://github.com/user-attachments/assets/401cc6a7-fc94-4040-a207-0b88cafb6c5e" />
 
 <img width="760" height="613" alt="image" src="https://github.com/user-attachments/assets/9a2fb423-ed3f-47e8-bf43-33cc32b4e3a4" />
+
+<img width="1113" height="726" alt="image" src="https://github.com/user-attachments/assets/29172767-315d-4a6b-a4b5-b5950f0fab6c" />
+
+<img width="1135" height="726" alt="image" src="https://github.com/user-attachments/assets/2c23c951-d7f3-4a71-b746-39c6d6467cda" />
+
+<img width="1155" height="745" alt="image" src="https://github.com/user-attachments/assets/061da815-453c-4293-963b-35ed1902a274" />
+
 
 ---
 
