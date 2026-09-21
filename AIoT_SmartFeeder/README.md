@@ -39,7 +39,15 @@ YOLOv11, ONNX Runtime, Raspberry Pi 4, Arduino Uno, UART 시리얼 통신, MG996
 
 <img width="709" height="985" alt="스크린샷 2026-09-21 110558" src="https://github.com/user-attachments/assets/fe586b95-e2af-4a38-997c-e4e9a70e0afe" />
 
+<img width="711" height="612" alt="스크린샷 2026-09-21 111430" src="https://github.com/user-attachments/assets/0bf3d200-6b8f-4761-9f6b-2896c8c92287" />
 
+<img width="709" height="822" alt="스크린샷 2026-09-21 111440" src="https://github.com/user-attachments/assets/00d85e79-12a7-4c25-bcb5-e1917b0d7e31" />
+
+
+#### YOLOv11 학습 데이터 (강아지 40장 + 고양이 40장 + 검증 각 10장 = 총 100장)
+<img width="714" height="1024" alt="image" src="https://github.com/user-attachments/assets/91e9aef2-505d-457f-bc94-a48b6d9d5915" />
+
+<img width="701" height="1043" alt="image" src="https://github.com/user-attachments/assets/f10e4ceb-7f85-4f47-83e3-95f9632a17be" />
 
 
 ---
