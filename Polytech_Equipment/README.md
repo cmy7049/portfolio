@@ -15,31 +15,6 @@
 
 ---
 
-### 프로젝트 사진
-
-<img width="1163" height="749" alt="image" src="https://github.com/user-attachments/assets/2f716fec-097d-462e-9bc6-5c36537f23a5" />
-SolidWorks로 모델링한 3D 어셈블리(좌)와 실제 PECVD 장비 사진(우). PM Chamber, Load Lock Chamber, Frame 구조가 실물과 동일하게 구현되었습니다.
-
-<img width="1070" height="1058" alt="image" src="https://github.com/user-attachments/assets/8018fac0-f217-4764-9f83-9c2e404d1eb9" />
-외장 커버(Sheet Metal)를 포함한 전체 장비의 등각 투영(Isometric) 뷰. 좌측에 PM Chamber 영역, 우측에 Load Lock Chamber 영역이 배치됩니다.
-
-<img width="1077" height="1057" alt="image" src="https://github.com/user-attachments/assets/6babd106-d2b8-4705-852f-86f74e0a7f63" />
-웨이퍼가 외부에서 진공 챔버로 출입하는 Load Lock Chamber. 전면에 웨이퍼 투입구(View Port) 2개가 있으며, 하단에 NW40 진공 배기 라인이 연결됩니다.
-
-<img width="1065" height="1095" alt="image" src="https://github.com/user-attachments/assets/9bdda082-ba31-4eb8-b214-549d8dd1d358" />
-외장 커버를 씌운 상태에서 상부 커버를 분리한 뷰. PM Chamber가 안착되는 우측 상단 개구부와, 진공 펌프 연결을 위한 좌측 원형 홀이 보입니다.
-
-<img width="1076" height="598" alt="image" src="https://github.com/user-attachments/assets/dcfa267a-025b-4042-a17f-2104ca0e35db" />
-장비 하부를 지지하는 Table Frame의 Foot Plate 상세. 레벨링을 위한 조절 볼트 구조와 프레임 용접부 마감이 모델링되어 있습니다.
-
-<img width="1059" height="662" alt="image" src="https://github.com/user-attachments/assets/01e294c9-12fd-48fa-bd03-1b14fb6c1f83" />
-PM Chamber 영역과 Load Lock Chamber 영역을 연결하는 상부 프레임 접합부. 볼트 체결 홀과 플레이트 맞닿음(fit-up) 구조가 확인됩니다.
-
-<img width="1065" height="1150" alt="image" src="https://github.com/user-attachments/assets/92994ee3-0b9d-488e-af9f-2f9ea86bafad" />
-장비 전체를 지지하는 Table Frame Assembly. 각형 강관(Square Tube)으로 구성되며, PM Chamber 영역(좌)과 Load Lock Chamber 영역(우)을 별도 섹션으로 지지합니다.
-
----
-
 ### PLC 장비 제어 및 인터록 설계
 
 Mitsubishi PLC(GX-Works2/3, MELSEC Q5)와 LS XG-5000으로 3상 인버터 컨베이어 구동 및 지능형 신호 제어 시스템을 구축했습니다.
@@ -95,8 +70,32 @@ PM Chamber(공정 챔버), Load Lock Chamber(웨이퍼 출입), Transfer System(
 | Table Frame | 장비 하부 지지 프레임 |
 | Frame Cover (Sheet Metal) | 상부 외장 커버 |
 
+
 **3단계. 전체 어셈블리 조립**
 모델링된 부품들을 메이트(Mate) 조건으로 조립하여 전체 장비 어셈블리를 완성하고, 실제 장비 사진과 비교하여 구조적 정확성을 검증했습니다.
+
+### 프로젝트 사진
+
+<img width="1163" height="749" alt="image" src="https://github.com/user-attachments/assets/2f716fec-097d-462e-9bc6-5c36537f23a5" />
+SolidWorks로 모델링한 3D 어셈블리(좌)와 실제 PECVD 장비 사진(우). PM Chamber, Load Lock Chamber, Frame 구조가 실물과 동일하게 구현되었습니다.
+
+<img width="1070" height="1058" alt="image" src="https://github.com/user-attachments/assets/8018fac0-f217-4764-9f83-9c2e404d1eb9" />
+외장 커버(Sheet Metal)를 포함한 전체 장비의 등각 투영(Isometric) 뷰. 좌측에 PM Chamber 영역, 우측에 Load Lock Chamber 영역이 배치됩니다.
+
+<img width="1077" height="1057" alt="image" src="https://github.com/user-attachments/assets/6babd106-d2b8-4705-852f-86f74e0a7f63" />
+웨이퍼가 외부에서 진공 챔버로 출입하는 Load Lock Chamber. 전면에 웨이퍼 투입구(View Port) 2개가 있으며, 하단에 NW40 진공 배기 라인이 연결됩니다.
+
+<img width="1065" height="1095" alt="image" src="https://github.com/user-attachments/assets/9bdda082-ba31-4eb8-b214-549d8dd1d358" />
+외장 커버를 씌운 상태에서 상부 커버를 분리한 뷰. PM Chamber가 안착되는 우측 상단 개구부와, 진공 펌프 연결을 위한 좌측 원형 홀이 보입니다.
+
+<img width="1076" height="598" alt="image" src="https://github.com/user-attachments/assets/dcfa267a-025b-4042-a17f-2104ca0e35db" />
+장비 하부를 지지하는 Table Frame의 Foot Plate 상세. 레벨링을 위한 조절 볼트 구조와 프레임 용접부 마감이 모델링되어 있습니다.
+
+<img width="1059" height="662" alt="image" src="https://github.com/user-attachments/assets/01e294c9-12fd-48fa-bd03-1b14fb6c1f83" />
+PM Chamber 영역과 Load Lock Chamber 영역을 연결하는 상부 프레임 접합부. 볼트 체결 홀과 플레이트 맞닿음(fit-up) 구조가 확인됩니다.
+
+<img width="1065" height="1150" alt="image" src="https://github.com/user-attachments/assets/92994ee3-0b9d-488e-af9f-2f9ea86bafad" />
+장비 전체를 지지하는 Table Frame Assembly. 각형 강관(Square Tube)으로 구성되며, PM Chamber 영역(좌)과 Load Lock Chamber 영역(우)을 별도 섹션으로 지지합니다.
 
 <img width="922" height="568" alt="image" src="https://github.com/user-attachments/assets/ed434906-c1b1-4de2-9cb0-4cb746b4fece" />
 
@@ -108,9 +107,10 @@ PM Chamber(공정 챔버), Load Lock Chamber(웨이퍼 출입), Transfer System(
 
 <img width="1006" height="610" alt="image" src="https://github.com/user-attachments/assets/398fa0cb-5991-45f1-b8e6-2c310754cd6a" />
 
+<img width="1114" height="710" alt="image" src="https://github.com/user-attachments/assets/dfb552fa-52d4-480d-a951-11c995d49471" />
 
-### 열해석 기초
-<img width="607" height="661" alt="image" src="https://github.com/user-attachments/assets/bc46a239-5818-4479-bf29-d6065e817bdc" />
+<img width="1144" height="725" alt="image" src="https://github.com/user-attachments/assets/bfffc6d9-a32b-4fc2-a8b3-d5fa4174c5d6" />
+
 
 ---
 
