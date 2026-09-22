@@ -62,30 +62,7 @@ Ansys Lumerical FDTD로 DTI 격벽 소재를 SiO₂→TiO₂로 최적화하여 
 [TCAD 기반 CMOS Inverter 공정 설계](./TCAD_CMOS_Inverter/)
 Synopsys TCAD Sentaurus로 STI~금속 컨택 전 공정 레시피 코드 작성. 채널 길이 50nm ~ 1μm 단채널 효과(SCE) 수치적 확인. CMOS Inverter VTC 스위칭 특성 검증.
 
-자율주행 · 센서
-[ROS2 및 LiDAR 기반 센서 매핑](./OceanPlan_ROS2/)
-Ubuntu OS에서 ROS2 프레임워크로 LiDAR 센서 연동, 실시간 환경 데이터 수집 및 시각화.
-
----
-
-#### 교육이수 상세
-
 장비 제어 · 3D 설계
 [폴리텍 하이테크과정 — PLC 전장 제어, PECVD 설계, SPC 분석](./Polytech_Equipment/)
 PLC 인터록 설계 및 솔레노이드 배선 트러블슈팅, SolidWorks PECVD 장비 어셈블리, Minitab Cp/Cpk 교차 검증, RF/플라즈마 모듈 학습.
 
-팹 실습 · 에러 로그 분석
-[서울대 ISRC — 양산급 설비 참관 및 에러 로그 역추적](./ISRC_FabProcess/)
-P-5000 맵핑 오류 역추적, AMAT Endura Al 증착, VII Sta 이온주입 HMI 운용, i-line Stepper 노광, SEM 계측. OM 한계 체감.
-
-소자 제작 · 수율 분석
-[SPTA — 4-Mask MOSFET 제작 및 수율 분석](./SPTA_MOSFET/)
-22개 Die 전기적 특성 분석에서 습식 식각 5초 초과에 의한 오버에칭 Root Cause 도출. SEM 계측 기준 표준화로 팀 데이터 산포 최소화.
-
-종합 교육
-[부산권 파워반도체 — TCAD부터 팹 제조, 장비 제어, 시장 분석까지](./PowerSemiconductor/)
-8개 트랙 174시간 이수. TCAD 소자 설계→팹 제조→장비 제어→시장 분석. 식각 비가역성 체득, 마케팅 최우수상 수상.
-
-데이터 분석
-[DSAC 데이터 분석 과정](./DSAC_DataAnalysis/)
-Python·Pandas 전처리, Matplotlib 시각화, 회귀분석·머신러닝으로 변수 간 상관관계 분석. 공정 품질 정량 판단 역량 확보.
